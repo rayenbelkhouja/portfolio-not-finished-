@@ -1,0 +1,42 @@
+.experience__frontend{
+    background-color: var(--color-bg-variant);
+    border-radius: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    gap: 1rem;
+    transition: var(--transition);
+}
+
+#experience{
+    padding-top: 2rem;
+}
+
+.experience__frontend:hover{
+    background-color: transparent;
+}
+
+.experience__container{
+    display: flex;
+    justify-content: center;
+}
+
+.experience__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 1rem;
+}
+
+.experience__details{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.experience-icons{
+    color: var(--color-primary);
+    margin-top: 6px;
+    font-size: larger;
+}
